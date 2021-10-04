@@ -43,10 +43,14 @@
         <Reference Include="System.Core" />
         <Reference Include="System.Data" />
         <Reference Include="System.Xml" />
+        <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>D:\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+        </Reference>
     </ItemGroup>
     <ItemGroup>
         <Compile Include="DisableSlaveRomancePatch.cs" />
-        <Compile Include="NoSlaveRomanceEntryPoint.cs" />
+        <Compile Include="NoSlaveRomanceMod.cs" />
+        <Compile Include="NoSlaveRomanceSettings.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>

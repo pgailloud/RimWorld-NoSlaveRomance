@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>RimWorld.CactusPie.NoSlaveRomance</packageId>
+	<name>No slave romance</name>
+	<author>CactusPie</author>
+	<url>http://cactuspie.com</url>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
+	<supportedVersions>
+		<li>1.3</li>
+	</supportedVersions>
+	<description>Completely disables romance option for slaves.
+Only prevents new romance from occuring, it will not affect any existing romances.
+Required mod: Harmony.
+
+GitHub: https://github.com/CactusPie/RimWorld-NoSlaveRomance</description>
+</ModMetaData>
