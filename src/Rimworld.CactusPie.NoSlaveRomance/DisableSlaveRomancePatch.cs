@@ -9,7 +9,7 @@ namespace Rimworld.CactusPie.NoSlaveRomance
     {
         private static readonly NoSlaveRomanceSettings Settings = LoadedModManager.GetMod<NoSlaveRomanceMod>().GetSettings<NoSlaveRomanceSettings>();
         
-        private static bool Prefix(ref float __result, Pawn initiator, Pawn recipient)
+        private static void Postfix(ref float __result, Pawn initiator, Pawn recipient)
         {
             if (Settings.PreventRomanceWithColonists)
             {
@@ -18,24 +18,21 @@ namespace Rimworld.CactusPie.NoSlaveRomance
                     if (initiator.IsSlave || recipient.IsSlave)
                     {
                         __result = 0f;
-                        return false;
+                        return;
                     }
                 }
 
                 if (initiator.IsSlave ^ recipient.IsSlave)
                 {
                     __result = 0f;
-                    return false;
+                    return;
                 }
             }
 
             if (Settings.PreventRomanceWithSlaves && initiator.IsSlave && recipient.IsSlave)
             {
                 __result = 0f;
-                return false;
             }
-            
-            return true; 
         }
     }
 }
