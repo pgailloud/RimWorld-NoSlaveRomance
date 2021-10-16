@@ -12,4 +12,4 @@ By default both settings are enabled, which means all romance for slaves will be
 Required mod: Harmony.
 
 Steam Workshop:
-https://steamcommunity.com/sharedfiles/filedetails/?id=2602481246https://github.com/CactusPie/RimWorld-NoSlaveRomance
+https://steamcommunity.com/sharedfiles/filedetails/?id=2602481246
