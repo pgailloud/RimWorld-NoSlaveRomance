@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<packageId>RimWorld.CactusPie.NoSlaveRomance</packageId>
-	<name>No slave romance</name>
-	<author>CactusPie</author>
-	<url>http://cactuspie.com</url>
+	<name>No Slave Romance (Re-Continued)</name>
+	<author>Laurient</author>
+	<url></url>
 	<modDependencies>
 		<li>
 			<packageId>brrainz.harmony</packageId>
@@ -18,8 +18,14 @@
 	<supportedVersions>
 		<li>1.3</li>
 		<li>1.4</li>
+		<li>1.5</li>
 	</supportedVersions>
-	<description>This mod prevents slaves from falling in love.
+	<description>
+		Mod from CactusPie: No Slave Romance - https://steamcommunity.com/sharedfiles/filedetails/?id=2602481246
+		Updated for 1.5
+		---
+		
+		This mod prevents slaves from falling in love.
 Only prevents new romance from occurring, it will not affect any existing romances.
 
 Mod settings allow you to enable or disable the following options:
@@ -30,5 +36,7 @@ By default both settings are enabled, which means all romance for slaves will be
 
 Required mod: Harmony.
 
-GitHub: https://github.com/CactusPie/RimWorld-NoSlaveRomance</description>
+GitHub Original: https://github.com/CactusPie/RimWorld-NoSlaveRomance
+GitHub Forked-Updated:  https://github.com/pgailloud/RimWorld-NoSlaveRomance
+	</description>
 </ModMetaData>
