@@ -380,3 +380,5 @@ src/.vscode/tasks.json
 
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 /src/**/MigrationBackup/
+/Assemblies
+/.vs/RimWorld-NoSlaveRomance/v17
